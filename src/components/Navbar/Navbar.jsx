@@ -69,6 +69,11 @@ const Navbar = () => {
                 <a href="#contact">Contact</a>
               </li>
             </ul>
+            <div className="app-navbar-smallscreen-login">
+              <a href="#login">Log In / Register</a>
+
+              <a href="/">Book a Table</a>
+            </div>
           </div>
         )}
       </div>

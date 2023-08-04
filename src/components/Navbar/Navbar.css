@@ -98,6 +98,22 @@
   color: var(--color-white);
 }
 
+.app-navbar-smallscreen-login {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.app-navbar-smallscreen-login a {
+  cursor: pointer;
+  flex-direction: column;
+  padding-bottom: 2rem;
+
+  color: var(--color-golden);
+  font-size: 2rem;
+  font-family: var(--font-base);
+}
+
 @media screen and (max-width: 2000px) {
   .app-navbar-logo img {
     width: 210px;
@@ -111,6 +127,10 @@
   .app-navbar-smallscreen {
     display: flex;
   }
+
+  .app-navbar-smallscreen-login {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -122,5 +142,9 @@
   }
   .app-navbar-logo img {
     width: 110px;
+  }
+
+  .app-navbar-smallscreen-login {
+    display: flex;
   }
 }
